@@ -7,5 +7,7 @@ namespace BookingApp.API.Data
     {
         public DataContext(DbContextOptions<DataContext> x): base(x){}
         public DbSet<Value> Values{get;set;}
+
+        public DbSet<User> Users{get;set;}
     }
 }
